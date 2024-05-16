@@ -43,7 +43,7 @@ a[href="https://www.example.com"]
 h4, h5, h6 {
     font-size: 20px;
     color: hotpink;
-    background-color: bisque;
+    background-color: black;
 }
 
 /* Pseudo-classes Selector */
@@ -74,3 +74,14 @@ h5::first-letter{
 span {
     color: aqua;
 }
+
+/* CSS SPECIFICITY 
+        1 Style Attribute
+        2 ID
+        3 Class, Att, pseudo-class
+        4 Elements
+        */
+
+        #heading6 {
+            color: yellow;
+        }

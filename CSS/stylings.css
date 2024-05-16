@@ -1,0 +1,54 @@
+.font-example {
+    font-family: monospace;
+
+}
+
+#font1 {
+    font-family: "Roboto Mono", monospace;
+    font-size: larger;
+    color: brown;
+    font-style: oblique;
+    font-stretch: narrower;
+    font-weight: bolder;
+}
+
+.line-spacing {
+    line-height: 1.5;
+    letter-spacing: 2px;
+}
+
+.alignment-ex {
+    text-align: center;
+    font-family: monospace;
+    font-size: x-large;
+    line-height: 0%;
+}
+
+.decoration-ex {
+    text-decoration: line-through;
+}
+
+.shadow-ex {
+    text-shadow: 5px 2px 4px rgba(1, 192, 74, 0.514); 
+}
+/*  1st value - x-axis
+    2nd value - y-axis
+    3rd value - blur radius
+    4th value - color
+*/
+
+.background {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background-image:url(https://html-online.com/articles/wp-content/uploads/2019/03/css3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: max-content;
+    height: max-content;
+    display: block;
+}
+
+.image-ex {
+    display: block;
+    margin: auto;
+}
