@@ -27,14 +27,17 @@ button:hover{
     font-size: 1.3em;
     box-shadow: 2px 2px 4px rgb(255, 144, 144);
     display: inline-block;
+    transition: background-color 0.5s ease;
+    transition: font-size 0.5s ease;
 }
+
 
 button:active{
     background-color: #013f4e;
 }
 
-span{ display: none;
-   
+span{ 
+    display: none;
 }
 
 button:hover + span {
