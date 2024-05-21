@@ -1,5 +1,0 @@
-
-
-# Deleted
-# Deleted: lang/languages/bwy_Latn.textproto # https://github.com/google/fonts/pull/7146
-# Deleted: lang/languages/sa_Limb.textproto # https://github.com/google/fonts/pull/7146
