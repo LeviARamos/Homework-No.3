@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+.box{
+    border: 1px solid;
+    padding: 20px;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+    background-color: rgb(253, 199, 190);
+    min-height: 50%;
+}
+
+.container {
+    background-color: rgb(252, 214, 208);
+    height: 100vh;
+}

@@ -1,0 +1,43 @@
+* {
+
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+[href]{
+    color: rgb(34, 34, 255);
+    font-weight: lighter;
+
+}
+h1{
+    line-height: normal;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(240, 96, 96), -2px -2px -4px rgb(77, 38, 252);
+}
+header{
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border: 3px solid rgb(2, 84, 131);
+    display: flow-root;
+    
+    }
+
+body{
+    text-align: center;
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    margin: auto;
+    margin-bottom: 0%;
+    display: flow-root;
+}
+
+footer{
+    border: 3px solid rgb(133, 248, 133)
+}
+
+#text-area{ overflow: auto;
+
+}
+

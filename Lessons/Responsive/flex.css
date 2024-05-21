@@ -1,0 +1,24 @@
+.flexItem{
+    width: 200px;
+    background-color: azure;
+    margin: 10px;
+    border: 2px solid black;
+    text-align: center;
+    justify-content: center;
+}
+
+.cross-axis{
+    position: absolute;
+    right: 50%;
+    height: 1080px;
+    width: 3px;
+    background-color: red;
+}
+
+.main-axis{
+    position: absolute;
+    top: 50%;
+    height: 2160px;
+    width: 3px;
+    background-color: green;
+}

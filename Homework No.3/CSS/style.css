@@ -1,0 +1,87 @@
+/* Universal Selector */
+/* everthing will be affected, unless you declare other attributes */
+* { color: mediumblue;
+
+}
+
+/* Element Selector */
+
+p { color: red;
+    font-family: monospace;
+}
+
+/* Class Selector */
+.parag1 {
+    color: crimson;
+}
+/* ID Selector */
+/* Constant */
+#parag2 {
+    color: darkorchid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Attribute Selector */
+/* targeting specific elements with href attributes */
+h3[href] {
+    color: pink;
+}
+
+/* targeting all elements with href attribute */
+[href]{
+    background-color: cadetblue;
+}
+
+/* targeting specific elements with specific attribute value */
+a[href="https://www.example.com"]
+{ 
+    color: blue;
+    background-color: antiquewhite;
+}
+
+/* Grouping Selector */
+h4, h5, h6 {
+    font-size: 20px;
+    color: hotpink;
+    background-color: black;
+}
+
+/* Pseudo-classes Selector */
+button:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+
+.pseudo:visited{
+    background-color: blue;
+    color: wheat;
+}
+
+/* Pseudo-element */
+h4::after {
+        content: " Placed after h4 ";
+}
+
+h4::before {
+    content: " Place before h4 "
+}
+
+h5::first-letter{
+    color: green;
+}
+
+span {
+    color: aqua;
+}
+
+/* CSS SPECIFICITY 
+        1 Style Attribute
+        2 ID
+        3 Class, Att, pseudo-class
+        4 Elements
+        */
+
+        #heading6 {
+            color: yellow;
+        }

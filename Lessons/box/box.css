@@ -1,0 +1,93 @@
+p{
+    width: 100px;
+    height: 240px;
+    background-color: tomato;
+}
+
+/* 4-value padding */
+
+h2 {
+
+    width: 300px;
+
+    height: 120px;
+
+    background-color: aqua;
+
+    padding: 6px 11px 4px 9px;
+
+    /* 
+
+    1st value = top
+
+    2nd value =  right
+
+    3rd value = bottom
+
+    4th value = left
+
+    */
+
+}
+
+/* specific padding properties */
+
+.padding {
+
+    width: 200px;
+
+    height: 300px;
+
+    background-color: cyan;
+
+    padding-top: 20px;
+
+    padding-left:  120px;
+
+    /* 1-Value padding - all sides*/
+
+    padding: 200px;
+
+    /* 2-value padding - 1st value: top and bottom; 2nd value: left and right */
+
+    padding: 100px 200px;
+
+    /* 3-Value padding - 1st: top; 2nd: sides; 3rd: bot */
+
+    padding: 100px 200px 300px;
+}
+
+h3{
+    width: 100px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+}
+
+.mix-borders{
+    border-style: dotted dashed solid double;
+    border-radius: 10px;
+
+}
+
+.borders{
+    padding: 10px;
+    border-style: inset;
+    border-radius: 50%;
+}
+
+h4{
+    width: 100px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid black;
+    padding: 10px;
+    margin: 2px;
+}
+
+.margin{
+    border-style: dashed;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}

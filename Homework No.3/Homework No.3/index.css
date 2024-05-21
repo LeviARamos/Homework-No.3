@@ -1,0 +1,103 @@
+*{
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-image: url(https://www.bates.edu/wordpress/files/2016/07/pattern1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+}
+
+body{
+    margin: 0px;
+    background-attachment: fixed;
+
+}
+
+h1{
+    text-align: center;
+}
+
+.navbar ul{
+    list-style: none;
+    background-color: rgb(202, 249, 255);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: rgb(5, 5, 219);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-size: x-large;
+}
+
+.navbar a:hover{
+    background-color: hsl(188, 38%, 69%);
+    font-size: 30px;
+    
+}
+
+.navbar li{
+    float: left;
+}
+
+main{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+body {
+    margin: 0px;
+}
+
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+aside{
+    width: 20%;
+    float: left;
+    padding: 10px
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+article{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+footer{
+    position: relative;
+    top: 200px;
+    display: block;
+    clear: both;
+    background-color: rgb(195, 246, 255);
+    text-align: right;
+    padding: 10px;
+    top
+}
+
+@media screen and (max-width:600px) {
+    aside, section, article,{
+        width: 100%;
+    }
+}
+
+.scrollable{
+    height: 100vh;
+    padding: 10px;
+    background-color: #f5f5f5;}

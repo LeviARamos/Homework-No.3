@@ -1,0 +1,20 @@
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.gallery {
+    display: inline-block;
+    border: 1px solid aliceblue;
+    margin: 5px;
+}
+
+.gallery .description{
+    padding: 10px;
+    text-align: center;
+}
+
+.gallery:hover{
+    border: 1px solid rgb(0, 0, 0);
+}
+

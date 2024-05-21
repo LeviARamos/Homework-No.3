@@ -1,0 +1,61 @@
+/* 1. STATIC POSITIONING */
+.static{
+    position: static;
+    background-color: cyan;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* 2. RELATIVE POSITIONING */
+
+.relative{
+    position: relative;
+    background-color: yellow;
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* ABSOLUTE POSITIONING */
+.absolute{
+    position: absolute;
+    background-color: red;
+    width: 150px;
+    padding: 10px;
+    top: 100px;
+    left: 300px;
+    text-align: center;
+}
+
+/* FIXED POSITIONING */
+.fixed{
+    position: fixed;
+    background-color: coral;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    top: 300px;
+    right: ;
+}
+
+.scrollable{
+    height: 100vh;
+    padding: 10px;
+    background-color: #f5f5f5;
+   
+   
+
+}
+/* Sticky positioning */
+.sticky{
+    position: sticky; 
+    background-color: azure;
+    width: 200px;
+    padding: 10px;
+    top: 0;
+    margin-bottom: 10px;
+    right: 700px;
+}

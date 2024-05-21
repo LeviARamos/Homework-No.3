@@ -1,0 +1,7 @@
+
+
+# Deleted
+# Deleted: lang/languages/sa_Sylo.textproto # https://github.com/google/fonts/pull/7248
+# Deleted: ofl/eduvicwantguide # https://github.com/google/fonts/pull/7557
+# Deleted: ofl/eduvicwantpreguide # https://github.com/google/fonts/pull/7557
+

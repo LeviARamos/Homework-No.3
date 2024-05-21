@@ -1,0 +1,112 @@
+* {
+    font-family: monospace, arial;
+    font-weight: 100;
+    padding: 10px;
+    
+
+}
+
+header{
+    
+
+}
+
+h1{
+    padding: 10px;
+}
+
+button{
+    border-radius: 10px;
+    background-color: rgb(176, 255, 255);
+    font-size: large;
+    cursor: pointer;   
+    padding: 9px 15px  
+              
+}
+
+button:hover{
+    background-color: #35d4fc;
+    font-size: 1.1em;
+    box-shadow: 2px 2px 4px rgb(255, 144, 144);
+    display: inline-block;
+    border-color: aliceblue;
+}
+
+button:active{
+    background-color: #013f4e;
+    border-color: aliceblue;
+}
+
+span{ display: none;
+   
+}
+
+button:hover + span {
+    display: inline-block;
+}
+div{
+    padding: 50px;
+}
+
+body{
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background: hsl(0%, 100%, 50%);
+    background-position: center;
+    width: auto;
+    display: inline-block;
+    vertical-align: top;
+    background-attachment: fixed;
+}
+
+.icons{
+    
+}
+
+.fa-solid.fa-house.fa-2x{
+  color: black;
+}
+
+.fa-solid.fa-house.fa-2x:hover{
+    color: blue;
+}
+
+.fa-brands.fa-youtube.fa-2x{
+    color: red;
+    outline-color: invert;
+}
+
+.fa-brands.fa-youtube.fa-2x:hover{
+    color: rgb(248, 114, 114)
+}
+.fa-brands.fa-instagram.fa-2x:hover{
+   color: violet;
+}
+
+.fa-brands.fa-facebook.fa-2x{
+    color: blue;
+}
+
+.fa-brands.fa-facebook.fa-2x:hover{
+    color: rgb(0, 0, 58)
+  
+}
+
+footer{
+    text-align: left;
+    display: inline-block;
+    outline: none;
+    border: 1px solid white
+
+
+}
+
+.nospace{
+    margin: 0;
+    line-height: 0;
+}
+
+
+
+
+
